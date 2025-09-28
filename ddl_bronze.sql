@@ -8,7 +8,16 @@ Script Purpose:
 	  Run this script to re-define the DDL structure of 'bronze' Tables
 ===============================================================================
 */
+use Master;
+create Database DataWarehouse;
+use DataWarehouse;
 
+create Schema Bronze;
+Go
+create Schema Silver;
+Go
+create Schema Gold;
+Go
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
 GO
