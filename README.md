@@ -51,5 +51,5 @@ Data Architecture – designing and drawing
 •	Authentication and Authorization
 
 
-
+![High Level Architecture](Picture1.png)
 
